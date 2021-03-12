@@ -1,6 +1,6 @@
 # Color-Camera-ISP-Pipeline--Python
 
-1. Objective
+# 1. Objective
 
 The objective of this project is to design and implement a color camera image signal processing (ISP) pipeline to process images acquired under poor illumination nighttime conditions.
 
@@ -85,7 +85,6 @@ The figures below illustrated the output of the Debayering module.
     <img src="figures/Image_02_CC.JPG" width="450">
   </div>
 </div>
-
 
 ## 3.5 Brightening
 
