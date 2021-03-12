@@ -20,9 +20,8 @@ The proposed ISP pipeline is illustrated in the figure below.
 
 <img src="figures/Implemented_ISP_Pipeline_New.jpg" width="1000">
 
-Next, we shall illustrate the poutput of each module. 
+Next, we shall illustrate the output of each module. 
 
-demonstrated in the submitted code, we implemented the following 3-step process to generated high-resolution 2D images from the relatively sparse 3D point cloud, illustrated in the fugure above:
 
 ## 3.1 Linearization
 
@@ -159,5 +158,5 @@ The figures below illustrated the output of the Debayering module.
 
 4. Conclusion
 
-Inthis project, we designed and implemented a color camera image signal processing (ISP) pipeline to process images acquired under poor illumination nighttime conditions. We illustrated the output of each module of the pipeline and demonstrated that final output image has significantly better quality and its scene contents can easily be detected and recognized by the human eyes as well as autkmated computer vision systems, inspite of the challenging nighttime illumination conditions.  
+In this project, we designed and implemented a color camera image signal processing (ISP) pipeline to process images acquired under poor illumination nighttime conditions. We illustrated the output of each module of the pipeline and demonstrated that final output image has significantly better quality and its scene contents can easily be detected and recognized by the human eyes as well as autkmated computer vision systems, inspite of the challenging nighttime illumination conditions.  
 
