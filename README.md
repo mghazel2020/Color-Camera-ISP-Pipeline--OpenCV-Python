@@ -1,6 +1,6 @@
 # Customized Color-Camera ISP Pipeline for Enhancement of Low-Exposure Imagery in OpenCV-Python
 
-<img src="figures/ISP pipeline.webp" width="1000">
+<img src="figures/ISP pipeline.webp" width="500">
 
 # 1. Objective
 
@@ -12,7 +12,7 @@ In many real-time computer vision applications, the imaging data is typically ac
 
 In this project, we desigbn and implement a color camera image ISP pipeline to process images acquired under poor illumination nighttime conditions and ensure sufficiently good quality, which allows a computer vision system to detect and recognize objects of interest. 
 
-## 2. The input Images
+## 2. The Input Images
 
 We shall illustrate the performance of our proposed ISP pipeline using using 2 input images that are in companded RAW format, that need to be ingested before we can visualize them. 
 
@@ -24,7 +24,7 @@ The proposed ISP pipeline is illustrated in the figure below.
 
 Next, we shall illustrate the output of each module. 
 
-### 3.1 Linearization
+### 3.1. Linearization
 
 When acquired by the camera, the images are stored in companded RAW format to disk. First, they need to be linearized and normalized and properly reshaped for further processing.   The figures below illustrated the output of the linearization module.
 
@@ -37,7 +37,7 @@ When acquired by the camera, the images are stored in companded RAW format to di
   </div>
 </div>
 
-### 3.2 Auto-White Balancing
+### 3.2. Auto-White Balancing
 
 Without some kind of adjustment and human intervention, digital cameras typically capture unrealistic images with a strong color cast. Automatic white balance (AWB) algorithms try to correct for the ambient light with minimum input from the user, so that the resulting image looks like what our eyes would see. 
 
@@ -56,7 +56,7 @@ The figures below illustrated the output of the AWB module.
   </div>
 </div>
 
-### 3.3 DeBayering
+### 3.3. DeBayering
 
 DeBayering, also known as demosaicing is a digital image processing algorithm used to reconstruct a full color image from the incomplete color samples output from an image sensor overlaid with a color filter array (CFA). The figures below illustrated the output of the Debayering module.
 
@@ -69,7 +69,7 @@ DeBayering, also known as demosaicing is a digital image processing algorithm us
   </div>
 </div>
 
-### 3.4 Color Correction
+### 3.4. Color Correction
 
 After applying the Debayering algorithm, the RGB images are now viewable. However, its pixels will not have coordinates in the correct
 RGB space that is expected by display system. The pixel’s RGB values need to be converted to some color basis
@@ -86,7 +86,7 @@ The figures below illustrated the output of the Debayering module.
   </div>
 </div>
 
-### 3.5 Brightening
+### 3.5. Brightening
 
 We now have a 16-bit, RGB image that has been color corrected and exists in the right color space for display. However, its pixel values may not be in a range appropriate
 for being displayed. We can brighten the image by simply scaling it. Next, we apply a simple brightening approach which ensures that the mean luminance of the image is scaled  to a reasonable value.
@@ -102,7 +102,7 @@ The figures below illustrated the output of the Debayering module.
   </div>
 </div>
 
-### 3.6 Gamma Correction
+### 3.6. Gamma Correction
 
 At this point, the image is still linear, which is not suitable # for display (dark areas will appear too dark). We will apply a “gamma correction” power function to this image
 as a simple way to fix this with typical: gamma_value = 1/2.2.
@@ -118,7 +118,7 @@ The figures below illustrated the output of the Debayering module.
   </div>
 </div>
 
-### 3.6 HSV-Based Post-Processing
+### 3.7. HSV-Based Post-Processing
 
 Finally, we apply HSV-Based Post-Processing in order to:
 * Reduce mangenta cast
