@@ -30,10 +30,10 @@ When acquired by the camera, the images are stored in companded RAW format to di
 
 <div class="row">
   <div class="column">
-    <img src="figures/Image_01_Normalized.JPG" width="450">
+    <img src="figures/Image_01_Normalized.JPG" width="1000">
   </div>
   <div class="column">
-    <img src="figures/Image_02_Normalized.JPG" width="450">
+    <img src="figures/Image_02_Normalized.JPG" width="1000">
   </div>
 </div>
 
@@ -49,10 +49,10 @@ The figures below illustrated the output of the AWB module.
 
 <div class="row">
   <div class="column">
-    <img src="figures/Image_01_AWB.JPG" width="450">
+    <img src="figures/Image_01_AWB.JPG" width="1000">
   </div>
   <div class="column">
-    <img src="figures/Image_02_AWB.JPG" width="450">
+    <img src="figures/Image_02_AWB.JPG" width="1000">
   </div>
 </div>
 
@@ -62,10 +62,10 @@ DeBayering, also known as demosaicing is a digital image processing algorithm us
 
 <div class="row">
   <div class="column">
-    <img src="figures/Image_01_DeBayered.JPG" width="450">
+    <img src="figures/Image_01_DeBayered.JPG" width="1000">
   </div>
   <div class="column">
-    <img src="figures/Image_02_DeBayered.JPG" width="450">
+    <img src="figures/Image_02_DeBayered.JPG" width="1000">
   </div>
 </div>
 
@@ -79,10 +79,10 @@ The figures below illustrated the output of the Debayering module.
 
 <div class="row">
   <div class="column">
-    <img src="figures/Image_01_CC.JPG" width="450">
+    <img src="figures/Image_01_CC.JPG" width="1000">
   </div>
   <div class="column">
-    <img src="figures/Image_02_CC.JPG" width="450">
+    <img src="figures/Image_02_CC.JPG" width="1000">
   </div>
 </div>
 
@@ -95,10 +95,10 @@ The figures below illustrated the output of the Debayering module.
 
 <div class="row">
   <div class="column">
-    <img src="figures/Image_01_Brightened.JPG" width="450">
+    <img src="figures/Image_01_Brightened.JPG" width="1000">
   </div>
   <div class="column">
-    <img src="figures/Image_02_Brightened.JPG" width="450">
+    <img src="figures/Image_02_Brightened.JPG" width="1000">
   </div>
 </div>
 
@@ -111,10 +111,10 @@ The figures below illustrated the output of the Debayering module.
 
 <div class="row">
   <div class="column">
-    <img src="figures/Image_01_Gamma.JPG" width="450">
+    <img src="figures/Image_01_Gamma.JPG" width="1000">
   </div>
   <div class="column">
-    <img src="figures/Image_02_Gamma.JPG" width="450">
+    <img src="figures/Image_02_Gamma.JPG" width="1000">
   </div>
 </div>
 
@@ -150,10 +150,10 @@ The figures below illustrated the output of the Debayering module.
 
 <div class="row">
   <div class="column">
-    <img src="figures/Image_01_HSV.JPG" width="450">
+    <img src="figures/Image_01_HSV.JPG" width="1000">
   </div>
   <div class="column">
-    <img src="figures/Image_02_HSV.JPG" width="450">
+    <img src="figures/Image_02_HSV.JPG" width="1000">
   </div>
 </div>
 
