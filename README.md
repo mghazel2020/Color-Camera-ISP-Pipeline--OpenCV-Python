@@ -1,6 +1,6 @@
 # Customized Color-Camera ISP Pipeline for Enhancement of Low-Exposure Imagery in OpenCV-Python
 
-<img src="figures/ISP pipeline.webp" width="500">
+<img src="figures/ISP pipeline.webp" width="1000">
 
 # 1. Objective
 
