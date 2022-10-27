@@ -163,7 +163,7 @@ In this project, we designed and implemented a color camera image signal process
 
 * We illustrated the output of each module of the pipeline
 * We demonstrated that final output images have significantly better quality
-* In each final output image, the objects and other contents of the imaged scenes can easily be detected and recognized by the human eyes as well as by automated computer vision systems, in spite of the challenging and poor  illumination conditions
+* In each final output image, the objects and other contents of the imaged scenes can easily be detected and recognized by the human eyes as well as by automated computer vision systems, in spite of the challenging and poor illumination conditions
 * The demonstrated the important of developing ISP algorithms that can handle challenging illumination during image acquisitions and yield high quality output images under different acquisition environment.
 
 ## 5. Future Work
@@ -179,8 +179,8 @@ We plan to investigate and implement the following related tasks:
 
 ## 6. References
 
-1. Kari Pulli. Camera Processing Pipeline. Retrieved from: https://web.stanford.edu/class/cs231m/lectures/lecture-11-camera-isp.pdf (October 15th, 2022).
-2. Path Partner Camera Tuning. Understanding the Image Signal Processor and ISP Tuning. Retrieved from: https://www.pathpartnertech.com/camera-tuning-understanding-the-image-signal-processor-and-isp-tuning/ (October 15th, 2022).
-3. Digital photography. Retrieved from: http://graphics.cs.cmu.edu/courses/15-463/2017_fall/lectures/lecture2.pdf (October 15th, 2022).
-4. NIKITA SRIVASTAVA. (A Peek inside your Camera I: Image Signal Processing (ISP) Pipeline. Retrieved from: https://www.einfochips.com/blog/a-peek-inside-your-camera-i-image-signal-processing-isp-pipeline/ (October 15th, 2022).
-5. Felix Heide et al. FlexISP: A Flexible Camera Image Processing Framework. Retrieved from: http://www.cs.ubc.ca/labs/imager/tr/2014/FlexISP/FlexISP_Heide2014_lowres.pdf (October 15th, 2022).
+1. Kari Pulli. Camera Processing Pipeline. Retrieved from: https://web.stanford.edu/class/cs231m/lectures/lecture-11-camera-isp.pdf.
+2. Path Partner Camera Tuning. Understanding the Image Signal Processor and ISP Tuning. Retrieved from: https://www.pathpartnertech.com/camera-tuning-understanding-the-image-signal-processor-and-isp-tuning/.
+3. Digital photography. Retrieved from: http://graphics.cs.cmu.edu/courses/15-463/2017_fall/lectures/lecture2.pdf.
+4. NIKITA SRIVASTAVA. (A Peek inside your Camera I: Image Signal Processing (ISP) Pipeline. Retrieved from: https://www.einfochips.com/blog/a-peek-inside-your-camera-i-image-signal-processing-isp-pipeline/.
+5. Felix Heide et al. FlexISP: A Flexible Camera Image Processing Framework. Retrieved from: http://www.cs.ubc.ca/labs/imager/tr/2014/FlexISP/FlexISP_Heide2014_lowres.pdf.
